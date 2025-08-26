@@ -5,8 +5,8 @@ const CONFIG = {
   siteTitle: "Ygpt",
   accent: "#10b981", // Tailwind emerald-500
   triggerMode: "contains", // "exact" | "contains" | "regex"
-  trigger: "what is the meaning of life",
-  specialAnswer: "42.",
+  trigger: "Do engineers have common traits?",
+  specialAnswer: "According to the AI: Yes — engineers do have common traits, they all get unfairly accused of being the same. But Yasser stands out. Engineers might share a toolkit, but how they use it is what makes each unique.",
   fallbackAnswers: [
     "Sorry, I can only answer one very specific question.",
     "Hmm… my training prevents me from answering that. Try the *special* one.",
@@ -139,14 +139,6 @@ export default function App() {
               style={{ background: accent }}
             >
               Send
-            </button>
-            <button
-              type="button"
-              onClick={() => navigator.clipboard?.writeText(CONFIG.trigger)}
-              className="shrink-0 rounded-xl px-3 py-3 border border-black/10 dark:border-white/10"
-              title="Copy the special question"
-            >
-              Hint
             </button>
           </div>
         </form>
