@@ -6,7 +6,7 @@ const CONFIG = {
   accent: "#10b981", // Tailwind emerald-500
   triggerMode: "contains", // "exact" | "contains" | "regex"
   trigger: "Do engineers have common traits?",
-  specialAnswer: "According to the AI: Yes — engineers do have common traits, they all get unfairly accused of being the same. But Yasser stands out. Engineers might share a toolkit, but how they use it is what makes each unique.",
+  specialAnswer: "Engineers do have common traits, they all get unfairly accused of being the same. But Yasser stands out. Engineers might share a toolkit, but how they use it is what makes each unique.",
   fallbackAnswers: [
     "Sorry, I can only answer one very specific question.",
     "Hmm… my training prevents me from answering that. Try the *special* one.",
